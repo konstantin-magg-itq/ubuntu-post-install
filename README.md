@@ -1,2 +1,2 @@
 # ubuntu-post-install
-Scritps to set up dev machines after OS installation
+Scripts to set up dev machines after OS installation
