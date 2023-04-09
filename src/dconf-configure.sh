@@ -1,7 +1,8 @@
 echo "=== CONFIGURE DESTKOP WITH DCONF ==="
 
-#configure color scheme and window manager
+# configure desktop
 dconf write /org/gnome/desktop/interface/color-scheme "'prefer-dark'"
+dconf write /org/gnome/desktop/sound false
 dconf write /org/gnome/desktop/wm/preferences/button-layout "'close,minimize,maximize:'"
 
 # configure nautilus
