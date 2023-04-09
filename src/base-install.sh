@@ -1,8 +1,8 @@
 echo "== INSTALL BASE TOOLING =="
 
 echo "=== APT INSTALL ==="
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 sudo apt install \
   git \
   gparted \
@@ -10,6 +10,7 @@ sudo apt install \
   keepassxc \
   tilix \
   vim
+sudo apt autoremove
 
 echo "=== SNAP INSTALL ==="
 sudo snap install codium --classic
