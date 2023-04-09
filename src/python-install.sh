@@ -11,7 +11,13 @@ sudo apt install \
 
 echo "=== PIP INSTALL ==="
 pip install \
-  autopep8
+  autopep8 \
+  pylint
+
+echo "=== CODE INSTALL EXTENSIONS ==="
+codium --install-extension \
+  ms-python.pylint \
+  ms-python.python
 
 echo "=== VERIFY VERSIONS ==="
 python --version
