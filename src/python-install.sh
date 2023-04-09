@@ -9,6 +9,10 @@ sudo apt install \
   python3-pip \
   python3-virtualenv
 
+echo "=== PIP INSTALL ==="
+pip install \
+  autopep8
+
 echo "=== VERIFY VERSIONS ==="
 python --version
 pip --version
