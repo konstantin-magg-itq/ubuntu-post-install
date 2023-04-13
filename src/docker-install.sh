@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "== INSTALL DOCKER =="
 
 echo "=== APT INSTALL ==="
@@ -11,6 +13,6 @@ echo "=== DOCKER POST INSTALLATION STEPS ==="
 echo "  see https://docs.docker.com/engine/install/linux-postinstall/"
 # sudo groupadd docker
 sudo usermod -aG docker $USER
-newgrp docker 
+newgrp docker
 
 echo "=== DONE ==="

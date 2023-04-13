@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "=== CONFIGURE DESTKOP WITH DCONF ==="
 
 # configure desktop

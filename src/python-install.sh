@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "== INSTALL PYTHON =="
 
 echo "=== APT INSTALL ==="
@@ -14,7 +16,7 @@ pip install \
   autopep8 \
   pylint
 
-echo "=== CODE INSTALL EXTENSIONS ==="
+echo "=== CODIUM INSTALL EXTENSIONS ==="
 codium --install-extension \
   ms-python.pylint \
   ms-python.python

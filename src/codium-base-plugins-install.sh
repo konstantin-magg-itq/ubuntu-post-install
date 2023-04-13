@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "== INSTALL COMMON EXTENSIONS FOR VS CODIUM =="
 
 echo "=== INSTALL COMMON EXTENSIONS ==="
