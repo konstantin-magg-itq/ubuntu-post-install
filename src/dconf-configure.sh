@@ -16,12 +16,6 @@ dconf write /org/gnome/nautilus/preferences/default-folder-viewer "'list-view'"
 dconf write /org/gnome/nautilus/preferences/default-sort-order "'mtime'"
 dconf write /org/gnome/nautilus/preferences/show-hidden-files true
 
-# power
-dconf write /org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-timeout 1200
-dconf write /org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-type "'suspend'"
-dconf write /org/gnome/settings-daemon/plugins/power/sleep-inactive-battery-timeout 1200
-dconf write /org/gnome/settings-daemon/plugins/power/sleep-inactive-battery-type "'suspend'"
-
 # configure shell
 dconf write /org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size 32
 dconf write /org/gnome/shell/extensions/dash-to-dock/dock-position "'BOTTOM'"
