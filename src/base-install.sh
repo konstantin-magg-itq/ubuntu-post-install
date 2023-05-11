@@ -3,13 +3,11 @@
 echo "== INSTALL BASE TOOLING =="
 
 echo "=== APT INSTALL ==="
-sudo apt update
-sudo apt upgrade
+sudo apt update && sudo apt upgrade
 sudo apt install \
   git \
   gparted \
   jq \
-  keepassxc \
   tilix \
   vim
 sudo apt autoremove
