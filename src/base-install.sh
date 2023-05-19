@@ -5,6 +5,7 @@ echo "== INSTALL BASE TOOLING =="
 echo "=== APT INSTALL ==="
 sudo apt update && sudo apt upgrade
 sudo apt install \
+  curl \
   git \
   gparted \
   jq \
